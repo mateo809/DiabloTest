@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Blueprints/Characters/PlayerCharacter.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/Inventory/CT_ComponentInventory.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Blueprints/MPTopDownNetworkController.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Blueprints/Characters/BaseCharacter.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Maps/MPTopDownExampleMap.umap",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/UI/Screens/GameScreenLayout.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/UI/Blueprints/Demo/PlayerFrame.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Blueprints/Usables/Item.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/Inventory/BP_Equip.uasset",
+				"C:/Users/mateo/Documents/GitHub/DiabloTest/MultiplayerTopDownKit/Content/MPTopdownKit/Blueprints/Usables/Usable_Actor.uasset"
+			]
+		}
+	]
+}
