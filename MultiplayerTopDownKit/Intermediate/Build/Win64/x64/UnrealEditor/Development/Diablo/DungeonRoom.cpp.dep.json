@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\mateo\\documents\\github\\diablotest\\multiplayertopdownkit\\source\\diablo\\dungeonroom.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mateo\\documents\\github\\diablotest\\multiplayertopdownkit\\intermediate\\build\\win64\\x64\\diabloeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\mateo\\documents\\github\\diablotest\\multiplayertopdownkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\diablo\\definitions.diablo.h",
+            "c:\\users\\mateo\\documents\\github\\diablotest\\multiplayertopdownkit\\source\\diablo\\dungeonroom.h",
+            "c:\\users\\mateo\\documents\\github\\diablotest\\multiplayertopdownkit\\intermediate\\build\\win64\\unrealeditor\\inc\\diablo\\uht\\dungeonroom.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
