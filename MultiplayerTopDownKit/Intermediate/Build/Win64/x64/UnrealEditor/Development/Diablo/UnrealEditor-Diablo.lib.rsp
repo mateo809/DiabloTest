@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\DiabloEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\AttributeComponent.gen.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\Diablo.init.gen.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\DungeonGenerator.gen.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\DungeonRoom.gen.cpp.obj"
@@ -17,5 +18,6 @@
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\DungeonRoom.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\EnemySpawner.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\RandomSpawnerComponent.cpp.obj"
+"C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\AttributeComponent.cpp.obj"
 "C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\Default.rc2.res"
 /OUT:"C:\Users\mateo\Documents\GitHub\DiabloTest\MultiplayerTopDownKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\Diablo\UnrealEditor-Diablo.lib"

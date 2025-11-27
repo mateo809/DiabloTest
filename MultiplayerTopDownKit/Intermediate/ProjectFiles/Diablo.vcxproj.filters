@@ -40,6 +40,12 @@
     <Filter Include="Source\Diablo">
       <UniqueIdentifier>{BCC01142-8E8C-3174-A152-F3D989C89DB5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Diablo\AttributeComponent.cpp">
+      <Filter>Source\Diablo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Diablo\AttributeComponent.h">
+      <Filter>Source\Diablo</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Diablo\Diablo.Build.cs">
       <Filter>Source\Diablo</Filter>
     </None>

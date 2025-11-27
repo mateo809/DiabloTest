@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiabloModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9ffe01664f959add5cad28ec08a3f09c68b040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8be5ca8a4f59f9f7deadf47ec36bddb84b6d8be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiabloModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiabloModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
