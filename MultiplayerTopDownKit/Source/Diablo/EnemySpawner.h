@@ -21,7 +21,6 @@ protected:
 
     FTimerHandle SpawnTimer;
 
-    // Pool d'ennemis
     UPROPERTY()
     TArray<ACharacter*> EnemyPool;
 
@@ -29,7 +28,6 @@ protected:
     int32 ActiveEnemyCount = 0;
 
 public:
-    // Classes d'ennemis
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
     TArray<TSubclassOf<ACharacter>> EnemyTypes;
 

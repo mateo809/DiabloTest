@@ -36,23 +36,11 @@ struct Z_Construct_UClass_AEnemySpawner_Statics
 		{ "ModuleRelativePath", "EnemySpawner.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnemyPool_MetaData[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Pool d'ennemis\n" },
-#endif
 		{ "ModuleRelativePath", "EnemySpawner.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Pool d'ennemis" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnemyTypes_MetaData[] = {
 		{ "Category", "Spawning" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Classes d'ennemis\n" },
-#endif
 		{ "ModuleRelativePath", "EnemySpawner.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Classes d'ennemis" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PoolSize_MetaData[] = {
 		{ "Category", "Spawning" },
@@ -165,10 +153,10 @@ AEnemySpawner::~AEnemySpawner() {}
 struct Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_EnemySpawner_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemySpawner, AEnemySpawner::StaticClass, TEXT("AEnemySpawner"), &Z_Registration_Info_UClass_AEnemySpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemySpawner), 862274525U) },
+		{ Z_Construct_UClass_AEnemySpawner, AEnemySpawner::StaticClass, TEXT("AEnemySpawner"), &Z_Registration_Info_UClass_AEnemySpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemySpawner), 2071099397U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_EnemySpawner_h_1578867120(TEXT("/Script/Diablo"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_EnemySpawner_h_2236334817(TEXT("/Script/Diablo"),
 	Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_EnemySpawner_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_EnemySpawner_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

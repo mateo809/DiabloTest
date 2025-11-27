@@ -5,7 +5,7 @@
 URandomSpawnerComponent::URandomSpawnerComponent()
 {
     PrimaryComponentTick.bCanEverTick = false;
-    Radius = 500.f; // valeur par défaut
+    Radius = 500.f; 
 }
 
 void URandomSpawnerComponent::BeginPlay()
@@ -15,7 +15,6 @@ void URandomSpawnerComponent::BeginPlay()
 
 FVector URandomSpawnerComponent::GetRandomPosition() const
 {
-    // Génère une position aléatoire dans un cercle autour de l'acteur
     float Angle = FMath::RandRange(0.f, 2.f * PI);
     float Distance = FMath::RandRange(0.f, Radius);
     FVector Offset(FMath::Cos(Angle) * Distance, FMath::Sin(Angle) * Distance, 0.f);
@@ -25,7 +24,7 @@ FVector URandomSpawnerComponent::GetRandomPosition() const
 
 void URandomSpawnerComponent::SpawnRandom()
 {
-    int32 Choice = FMath::RandRange(0, 2); // 0 = rien, 1 = coffre, 2 = spawner
+    int32 Choice = FMath::RandRange(0, 2); 
 
     if (Choice == 0)
     {

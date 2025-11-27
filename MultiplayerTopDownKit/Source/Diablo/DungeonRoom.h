@@ -1,4 +1,3 @@
-// DungeonRoom.h
 #pragma once
 
 #include "CoreMinimal.h"
@@ -57,7 +56,6 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dungeon")
     class UBoxComponent* RoomBounds;
 
-    // Blueprints des murs et portes
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Dungeon|Prefabs")
     TSubclassOf<AActor> WallPrefab;
 

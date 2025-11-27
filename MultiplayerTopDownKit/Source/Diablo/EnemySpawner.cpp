@@ -53,13 +53,10 @@ void AEnemySpawner::InitializePool()
         }
 
         if (!EnemyClass) continue;
-
-        // Spawn de l'ennemi hors du monde pour le pool
         ACharacter* Enemy = GetWorld()->SpawnActor<ACharacter>(EnemyClass, FVector::ZeroVector, FRotator::ZeroRotator);
 
         if (Enemy)
         {
-            // Spawn AIController si nécessaire
             if (!Enemy->GetController())
             {
                 Enemy->SpawnDefaultController();
@@ -96,7 +93,6 @@ void AEnemySpawner::SpawnEnemyFromPool()
             Enemy->SetActorEnableCollision(true);
             Enemy->SetActorTickEnabled(true);
 
-            // Activer AI
             if (Enemy->GetController() == nullptr)
             {
                 Enemy->SpawnDefaultController();

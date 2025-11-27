@@ -47,10 +47,8 @@ void ADungeonGenerator::GenerateDungeon()
 {
     ClearDungeon();
 
-    // ----------- stockage des cases occupées ------------
     TSet<FIntPoint> OccupiedCells;
 
-    // ------------------- SALLE DE DÉBUT -------------------
     FIntPoint StartCell(0, 0);
     FVector StartLocation = FVector(0, 0, 0);
 
@@ -58,7 +56,6 @@ void ADungeonGenerator::GenerateDungeon()
     GeneratedRooms.Add(StartRoom);
     OccupiedCells.Add(StartCell);
 
-    // ------------------- SALLE DE FIN ----------------------
     FIntPoint EndCell(DungeonWidth - 1, DungeonHeight - 1);
     FVector EndLocation = FVector(EndCell.X * RoomSpacing, EndCell.Y * RoomSpacing, 0);
 
@@ -66,13 +63,11 @@ void ADungeonGenerator::GenerateDungeon()
     GeneratedRooms.Add(EndRoom);
     OccupiedCells.Add(EndCell);
 
-    // ------------------- SALLES NORMALES -------------------
     for (int32 i = 0; i < RoomCount - 2; i++)
     {
         FIntPoint Cell;
         int32 Tries = 0;
 
-        // cherche une case libre
         do {
             Cell.X = FMath::RandRange(0, DungeonWidth - 1);
             Cell.Y = FMath::RandRange(0, DungeonHeight - 1);
@@ -87,18 +82,15 @@ void ADungeonGenerator::GenerateDungeon()
 
         FVector NewLocation = FVector(Cell.X * RoomSpacing, Cell.Y * RoomSpacing, 0);
 
-        // boss = avant dernière salle
         ERoomType Type = (i == RoomCount - 3) ? ERoomType::Boss : ERoomType::Normal;
 
         ADungeonRoom* NewRoom = SpawnRoom(NewLocation, Type);
         GeneratedRooms.Add(NewRoom);
 
-        // connecte à une salle existante proche
         ADungeonRoom* ConnectTo = GeneratedRooms[FMath::RandRange(0, GeneratedRooms.Num() - 2)];
         ConnectRooms(NewRoom, ConnectTo);
     }
 
-    // connecte la salle de fin
     ConnectRooms(EndRoom, GeneratedRooms.Last());
 
     PopulateRooms();
@@ -151,13 +143,10 @@ void ADungeonGenerator::ConnectRooms(ADungeonRoom* A, ADungeonRoom* B)
     if (!A || !B)
         return;
 
-    // direction B par rapport à A
     FVector Dir = B->GetActorLocation() - A->GetActorLocation();
 
-    // Orientation principale
     if (FMath::Abs(Dir.X) > FMath::Abs(Dir.Y))
     {
-        // EST
         if (Dir.X > 0)
         {
             FVector DoorPosA = A->GetActorLocation() + FVector(A->RoomWidth / 2.f, 0, 0);
@@ -166,7 +155,6 @@ void ADungeonGenerator::ConnectRooms(ADungeonRoom* A, ADungeonRoom* B)
             A->PlaceDoor(DoorPosA, FRotator(0, 0, 0));
             B->PlaceDoor(DoorPosB, FRotator(0, 180, 0));
         }
-        // OUEST
         else
         {
             FVector DoorPosA = A->GetActorLocation() - FVector(A->RoomWidth / 2.f, 0, 0);
@@ -178,7 +166,6 @@ void ADungeonGenerator::ConnectRooms(ADungeonRoom* A, ADungeonRoom* B)
     }
     else
     {
-        // NORD
         if (Dir.Y > 0)
         {
             FVector DoorPosA = A->GetActorLocation() + FVector(0, A->RoomHeight / 2.f, 0);
@@ -187,7 +174,6 @@ void ADungeonGenerator::ConnectRooms(ADungeonRoom* A, ADungeonRoom* B)
             A->PlaceDoor(DoorPosA, FRotator(0, 90, 0));
             B->PlaceDoor(DoorPosB, FRotator(0, 270, 0));
         }
-        // SUD
         else
         {
             FVector DoorPosA = A->GetActorLocation() - FVector(0, A->RoomHeight / 2.f, 0);

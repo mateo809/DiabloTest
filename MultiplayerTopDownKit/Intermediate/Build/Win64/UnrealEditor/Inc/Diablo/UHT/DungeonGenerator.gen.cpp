@@ -43,34 +43,16 @@ struct Z_Construct_UScriptStruct_FRoomPrefab_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomClass_MetaData[] = {
 		{ "Category", "Dungeon|Prefab" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Classe de la salle (blueprint / C++)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Classe de la salle (blueprint / C++)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PrefabSize_MetaData[] = {
 		{ "Category", "Dungeon|Prefab" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Taille de la prefab (utile si tu veux aligner ou v\xef\xbf\xbdrifier le placement)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Taille de la prefab (utile si tu veux aligner ou v\xef\xbf\xbdrifier le placement)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnWeight_MetaData[] = {
 		{ "Category", "Dungeon|Prefab" },
 		{ "ClampMin", "0.0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Poids pour s\xef\xbf\xbdlection al\xef\xbf\xbd""atoire pond\xef\xbf\xbdr\xef\xbf\xbd""e\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Poids pour s\xef\xbf\xbdlection al\xef\xbf\xbd""atoire pond\xef\xbf\xbdr\xef\xbf\xbd""e" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_RoomClass;
@@ -151,13 +133,7 @@ struct Z_Construct_UFunction_ADungeonGenerator_GenerateDungeon_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Dungeon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// --- API Blueprint / C++ ---\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "--- API Blueprint / C++ ---" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -205,24 +181,12 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomPrefabs_MetaData[] = {
 		{ "Category", "Dungeon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// --- Configuration des prefabs / salle ---\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "--- Configuration des prefabs / salle ---" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DungeonWidth_MetaData[] = {
 		{ "Category", "Dungeon" },
 		{ "ClampMin", "1" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Taille logique de la grille (en nombre de cases)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Taille logique de la grille (en nombre de cases)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DungeonHeight_MetaData[] = {
 		{ "Category", "Dungeon" },
@@ -232,34 +196,16 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomCount_MetaData[] = {
 		{ "Category", "Dungeon" },
 		{ "ClampMin", "2" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Nombre total de salles d\xef\xbf\xbdsir\xef\xbf\xbd""es (inclut Start & End)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Nombre total de salles d\xef\xbf\xbdsir\xef\xbf\xbd""es (inclut Start & End)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RoomSpacing_MetaData[] = {
 		{ "Category", "Dungeon" },
 		{ "ClampMin", "0.0" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Espacement (distance entre centres de cases de la grille)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Espacement (distance entre centres de cases de la grille)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxEnemiesPerRoom_MetaData[] = {
 		{ "Category", "Dungeon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Gameplay: ennemis / tr\xef\xbf\xbdsor\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Gameplay: ennemis / tr\xef\xbf\xbdsor" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TreasureSpawnChance_MetaData[] = {
 		{ "Category", "Dungeon" },
@@ -269,13 +215,7 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAutoGenerateOnPlay_MetaData[] = {
 		{ "Category", "Dungeon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Auto g\xef\xbf\xbdn\xef\xbf\xbdration et r\xef\xbf\xbdg\xef\xbf\xbdn\xef\xbf\xbdration\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Auto g\xef\xbf\xbdn\xef\xbf\xbdration et r\xef\xbf\xbdg\xef\xbf\xbdn\xef\xbf\xbdration" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RegenerationInterval_MetaData[] = {
 		{ "Category", "Dungeon" },
@@ -283,13 +223,7 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GeneratedRooms_MetaData[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Instances g\xef\xbf\xbdn\xef\xbf\xbdr\xef\xbf\xbd""es (g\xef\xbf\xbdr\xef\xbf\xbd""es par le g\xef\xbf\xbdn\xef\xbf\xbdrateur)\n" },
-#endif
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Instances g\xef\xbf\xbdn\xef\xbf\xbdr\xef\xbf\xbd""es (g\xef\xbf\xbdr\xef\xbf\xbd""es par le g\xef\xbf\xbdn\xef\xbf\xbdrateur)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StartRoom_MetaData[] = {
 		{ "ModuleRelativePath", "DungeonGenerator.h" },
@@ -317,7 +251,7 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ADungeonGenerator_ClearDungeon, "ClearDungeon" }, // 2844046499
-		{ &Z_Construct_UFunction_ADungeonGenerator_GenerateDungeon, "GenerateDungeon" }, // 3907018891
+		{ &Z_Construct_UFunction_ADungeonGenerator_GenerateDungeon, "GenerateDungeon" }, // 3990917537
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -325,8 +259,8 @@ struct Z_Construct_UClass_ADungeonGenerator_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_RoomPrefabs_Inner = { "RoomPrefabs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FRoomPrefab, METADATA_PARAMS(0, nullptr) }; // 222769989
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_RoomPrefabs = { "RoomPrefabs", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADungeonGenerator, RoomPrefabs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RoomPrefabs_MetaData), NewProp_RoomPrefabs_MetaData) }; // 222769989
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_RoomPrefabs_Inner = { "RoomPrefabs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FRoomPrefab, METADATA_PARAMS(0, nullptr) }; // 2857484487
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_RoomPrefabs = { "RoomPrefabs", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADungeonGenerator, RoomPrefabs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RoomPrefabs_MetaData), NewProp_RoomPrefabs_MetaData) }; // 2857484487
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_DungeonWidth = { "DungeonWidth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADungeonGenerator, DungeonWidth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DungeonWidth_MetaData), NewProp_DungeonWidth_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_DungeonHeight = { "DungeonHeight", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADungeonGenerator, DungeonHeight), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DungeonHeight_MetaData), NewProp_DungeonHeight_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ADungeonGenerator_Statics::NewProp_RoomCount = { "RoomCount", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADungeonGenerator, RoomCount), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RoomCount_MetaData), NewProp_RoomCount_MetaData) };
@@ -400,13 +334,13 @@ ADungeonGenerator::~ADungeonGenerator() {}
 struct Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FRoomPrefab::StaticStruct, Z_Construct_UScriptStruct_FRoomPrefab_Statics::NewStructOps, TEXT("RoomPrefab"), &Z_Registration_Info_UScriptStruct_RoomPrefab, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRoomPrefab), 222769989U) },
+		{ FRoomPrefab::StaticStruct, Z_Construct_UScriptStruct_FRoomPrefab_Statics::NewStructOps, TEXT("RoomPrefab"), &Z_Registration_Info_UScriptStruct_RoomPrefab, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRoomPrefab), 2857484487U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ADungeonGenerator, ADungeonGenerator::StaticClass, TEXT("ADungeonGenerator"), &Z_Registration_Info_UClass_ADungeonGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADungeonGenerator), 910374222U) },
+		{ Z_Construct_UClass_ADungeonGenerator, ADungeonGenerator::StaticClass, TEXT("ADungeonGenerator"), &Z_Registration_Info_UClass_ADungeonGenerator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADungeonGenerator), 1481663424U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_280490600(TEXT("/Script/Diablo"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_4207136436(TEXT("/Script/Diablo"),
 	Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonGenerator_h_Statics::ScriptStructInfo),
 	nullptr, 0);

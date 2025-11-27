@@ -1,4 +1,3 @@
-// DungeonRoom.cpp
 #include "DungeonRoom.h"
 #include "Components/BoxComponent.h"
 
@@ -70,8 +69,7 @@ void ADungeonRoom::GenerateEndRoom()
 
 void ADungeonRoom::DestroyWall(FVector WallLocation)
 {
-    // Pas besoin de raycast, on place directement la porte
-    // La destruction est gérée par le placement de la porte
+
     UE_LOG(LogTemp, Warning, TEXT("Mur détruit à : X=%.1f, Y=%.1f, Z=%.1f"),
         WallLocation.X, WallLocation.Y, WallLocation.Z);
 }
@@ -118,8 +116,6 @@ void ADungeonRoom::SpawnEnemy(int32 EnemyCount)
             100
         );
 
-        // TODO: Remplacer par ta classe d'ennemi
-        // Exemple: GetWorld()->SpawnActor<AEnemy>(AEnemy::StaticClass(), SpawnPos);
 
         UE_LOG(LogTemp, Warning, TEXT("Ennemi spawn à : X=%.1f, Y=%.1f, Z=%.1f"),
             SpawnPos.X, SpawnPos.Y, SpawnPos.Z);
@@ -134,8 +130,6 @@ void ADungeonRoom::SpawnTreasure()
         100
     );
 
-    // TODO: Remplacer par ta classe de trésor
-    // Exemple: GetWorld()->SpawnActor<ATreasure>(ATreasure::StaticClass(), TreasurePos);
 
     UE_LOG(LogTemp, Warning, TEXT("Trésor spawn à : X=%.1f, Y=%.1f, Z=%.1f"),
         TreasurePos.X, TreasurePos.Y, TreasurePos.Z);

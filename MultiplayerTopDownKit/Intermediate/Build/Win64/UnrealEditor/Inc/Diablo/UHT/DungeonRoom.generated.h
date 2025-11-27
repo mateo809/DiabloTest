@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DIABLO_DungeonRoom_generated_h
 
-#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_20_GENERATED_BODY \
+#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_19_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDoorInfo_Statics; \
 	DIABLO_API static class UScriptStruct* StaticStruct();
 
 
 template<> DIABLO_API UScriptStruct* StaticStruct<struct FDoorInfo>();
 
-#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_35_INCLASS_NO_PURE_DECLS \
+#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_34_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADungeonRoom(); \
 	friend struct Z_Construct_UClass_ADungeonRoom_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ADungeonRoom)
 
 
-#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_35_ENHANCED_CONSTRUCTORS \
+#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ADungeonRoom(ADungeonRoom&&); \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~ADungeonRoom();
 
 
-#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_32_PROLOG
-#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_35_GENERATED_BODY \
+#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_31_PROLOG
+#define FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_35_INCLASS_NO_PURE_DECLS \
-	FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_35_ENHANCED_CONSTRUCTORS \
+	FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Users_mateo_Documents_GitHub_DiabloTest_MultiplayerTopDownKit_Source_Diablo_DungeonRoom_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
